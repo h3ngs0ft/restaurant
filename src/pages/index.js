@@ -6,6 +6,7 @@ import { HomeHeader, Banner,BannerButton } from "../utils"
 import img from "../images/bcg/homeBcg.jpeg"
 import QuickInfo from "../components/HomepageComponents/QuickInfo"
 import Gallery from "../components/HomepageComponents/Gallery-1"
+import Menu from "../components/HomepageComponents/Menu"
 //import styled from "styled-components"
 //import { FaBeer } from 'react-icons/fa'
 
@@ -19,6 +20,7 @@ const IndexPage = () => (
     </HomeHeader>
     <QuickInfo/>
     <Gallery/>
+    <Menu/>
   </Layout>
 )
 
